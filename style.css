@@ -1,0 +1,357 @@
+/*Font start*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+
+/*Font end*/
+
+
+
+/*Body start*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #212023;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: inline-block;
+}
+
+
+/*Body end*/
+
+
+
+/*Pages start*/
+
+.page1 {
+    background-image: url('pb5.webp');
+    height: 620px;
+    width: 1216px;
+}
+
+.page2 {
+    background-image: url('pb5.webp');
+    height: 620px;
+    width: 1216px;
+}
+
+.page3 {
+    background-image: url('pb5.webp');
+    height: 620px;
+    width: 1216px;
+}
+
+/*Pages end*/
+
+
+
+/* Text start */
+
+h1 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 50px;
+    color: #B3B3B3;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 15px;
+    color: #B3B3B3;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 15px;
+    color: #B3B3B3;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'PT Serif Caption', serif;
+    color: #B3B3B3;
+}
+
+/* Text end*/
+
+
+
+
+/* Page one*/
+
+.name {
+    padding-top: 14rem;
+    padding-left: 3rem;
+}
+
+/* Navbar start*/
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-link {
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+/* Navbar end*/
+
+/* Page one end*/
+
+
+
+/* Page two*/
+
+.project-title {
+    padding-left: 518px;
+    padding-top: 3rem;
+}
+
+.project-tile {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 8px;
+    float: left;
+    background-color: #212023;
+    height: 20rem;
+    width: 18rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.project-tile2 {
+    overflow: hidden;
+    justify-content: center;
+    display: inline-block;
+    border-radius: 8px;
+    float: center;
+    background-color: #212023;
+    height: 20rem;
+    width: 18rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.project-tile3 {
+    overflow: hidden;
+    justify-content: center;
+    display: inline-block;
+    border-radius: 8px;
+    float: right;
+    background-color: #212023;
+    height: 20rem;
+    width: 18rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+/* Project pictures start*/
+
+.projectpic1 {
+    background-color: #3F3E40;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 1rem;
+    display: flex;
+    height: 12rem;
+    width: 15rem;
+}
+
+.projectpic2 {
+    background-color: #3F3E40;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 1rem;
+    display: flex;
+    height: 12rem;
+    width: 15rem;
+}
+
+.projectpic3 {
+    background-color: #3F3E40;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 1rem;
+    display: flex;
+    height: 12rem;
+    width: 15rem;
+}
+
+/* Project pictures end*/
+
+
+
+/* Project descriptions start*/
+
+.project-description1 {
+    margin-left: 32px;
+    margin-top: 1rem;
+    font-size: 10px;
+}
+
+.project-description2 {
+    margin-left: 50px;
+    margin-top: 1rem;
+    font-size: 10px;
+}
+
+.project-description3 {
+    margin-left: 40px;
+    margin-top: 1rem;
+    font-size: 10px;
+}
+
+
+.link {
+    display: flex;
+    margin-left: 109px;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* Project descriptions end*/
+
+
+/* Hover effect for link start*/
+
+#hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+#hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Hover effect for link end*/
+
+
+
+/* Button Start*/
+
+
+.show-all {
+    display: inline-block;
+    margin-top: 3rem;
+    margin-left: 565px;
+    border-radius: 8px;
+    background-color: #212023;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.show-all span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.show-all span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.show-all:hover span {
+    padding-right: 25px;
+}
+
+.show-all:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Button end*/
+
+
+/* Page two end*/
+
+
+
+/* Page three*/
+
+.contact-me-title {
+    display: flex;
+    padding-left: 24rem;
+    padding-top: 6rem;
+    font-size: 40px;
+
+}
+
+.contact-me-text {
+    font-family: 'PT Serif Caption', serif;
+    text-indent: 2rem;
+}
+
+.gmail {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 19rem;
+    margin-top: 9rem;
+}
+
+.pnumber {
+    text-align: center;
+    display: inline-block;
+}
+
+.Github {
+    text-align: center;
+    display: inline-block;
+}
+
+.insta {
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* Page three end*/
