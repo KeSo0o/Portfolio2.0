@@ -92,7 +92,7 @@ a {
 
 
 
-/* Page one*/
+/* Page one start*/
 
 .name {
     padding-top: 14rem;
@@ -224,6 +224,8 @@ a {
 }
 
 
+/* Project name start*/
+
 .link {
     display: flex;
     margin-left: 109px;
@@ -232,10 +234,13 @@ a {
     text-decoration: none;
 }
 
+/* Project name end*/
+
 /* Project descriptions end*/
 
 
-/* Hover effect for link start*/
+
+/* Hover effect for project name/links start*/
 
 #hover-underline-animation {
     display: inline-block;
@@ -261,7 +266,7 @@ a {
     transform-origin: bottom left;
 }
 
-/* Hover effect for link end*/
+/* Hover effect for project name/links end*/
 
 
 
